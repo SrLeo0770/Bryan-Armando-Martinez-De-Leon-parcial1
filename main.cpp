@@ -1,5 +1,6 @@
 #include <iostream>
 
+/*
 int main() {
     int a = 0;
     int b = 0;
@@ -14,6 +15,16 @@ int main() {
 
     std::cout << "Suma de numeros impares: " << a << std::endl;
     std::cout << "Suma de numeros pares: " << b << std::endl;
+*/
+
+int main() {
+    int i = 0;
+
+    while (i < 30) {
+        i += 3;
+    }
+
+    std::cout << "El primer numero impar mayor o igual a 30 es: " << i << std::endl;
 
     return 0;
 }
